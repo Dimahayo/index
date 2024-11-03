@@ -1,0 +1,130 @@
+*{
+    padding:0 ;
+    margin:0 ;
+    box-sizing: border-box;
+    cursor: auto;
+}
+.logo-img{
+    width: 70px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo h2{
+    font-size: 3rm;
+    color: #17857a;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color:black;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    transition:  all 0.4s ease-in;
+}
+nav ul li a:hover{
+    color: darkblue;
+    font-weight: bolder;
+    border-bottom: 3px solid #17857a;
+}
+main{
+    min-height: 100vh;
+}
+.hero-img{
+    background-image:url(istockphoto-1385768827-612x612.jpg);
+    height: 500px;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    transform: rotate(-4deg);
+    color:crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+.hero{
+    width:300px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 2rem;
+    color: aqua;
+    margin-bottom: 10px;
+}
+.hero h3{
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 20px;
+}
+.btn{
+    border: solid 3px #17857a;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #17857a;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background-color: #17857a;
+    color:#fff;
+}
+.pro-card{
+     border-radius: 7px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+     height: 300px;
+     width: 250px;
+     overflow: hidden;
+
+}
+.nem{
+    background-color: #17857a;
+    color: #fff;
+    display: grid;
+    place-content:center;
+    width: 100%;
+    height: 50%;
+}
+.nem p{
+    font-size: 6rem;
+}
+.product-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Det{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 50%;
+    padding: 10px;
+}
+
